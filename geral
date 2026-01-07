@@ -1,0 +1,59 @@
+# Caça-Palavras – Sistemas Operacionais
+
+Projeto educacional desenvolvido em **Python** com interface gráfica, cujo objetivo é auxiliar estudantes na fixação de **conceitos básicos da disciplina de Sistemas Operacionais**, por meio de um jogo interativo de **Caça-Palavras**.
+
+---
+
+## Contexto Acadêmico
+
+- **Curso:** Análise e Desenvolvimento de Sistemas  
+- **Disciplina:** Sistemas Operacionais  
+- **Tipo de Projeto:** Educacional / Didático  
+- **Objetivo:** Reforçar o aprendizado de conceitos fundamentais de SO de forma lúdica e interativa  
+
+---
+
+## Objetivo do Jogo
+
+O jogador deve localizar, em uma grade de letras, **7 palavras-chave genéricas** amplamente estudadas na disciplina de Sistemas Operacionais.  
+As palavras são formadas por meio do clique sequencial nas letras da grade.
+
+---
+
+## Palavras-Chave Utilizadas
+
+- SISTEMA  
+- USUARIO  
+- CPU  
+- DISCO  
+- BUFFER  
+- INTERRUPCAO  
+- PRIVILEGIO  
+
+Esses termos representam conceitos essenciais relacionados a:
+- funcionamento do sistema operacional  
+- interação com o hardware  
+- gerenciamento de recursos  
+- segurança e controle de acesso  
+
+---
+
+## Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|-----------|-----------|
+| **Python 3** | Linguagem principal do projeto |
+| **Tkinter** | Biblioteca gráfica nativa do Python |
+| **Paradigma** | Programação estruturada e orientada a eventos |
+
+> Não há dependências externas. O jogo funciona apenas com a instalação padrão do Python.
+
+---
+
+## Estrutura do Projeto
+
+```text
+caca_palavras_so/
+│
+├── caca_palavras.py   # Código-fonte principal do jogo
+└── README.md          # Documentação do projeto
