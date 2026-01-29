@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Caça-Palavras Dev</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Caça-Palavras Dev</h1>
+<h2 id="titulo-nivel" style="text-align: center; color: #4caf50; font-size: 2rem; margin-top: -20px;">Nível 1</h2>
+
+<div id="jogo">
+    <div id="grade"></div>
+
+    <div id="painel">
+        <h3>LISTA DE PALAVRAS</h3>
+        <ul id="lista"></ul>
+        <p id="status" style="margin-top: 20px; color: #aaa;">Clique e arraste para selecionar</p>
+    </div>
+</div>
+
+<div id="tela-vitoria">
+    <div id="mensagem-vitoria">PARABÉNS!</div>
+    <button id="btn-reiniciar">Próximo Nível</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
